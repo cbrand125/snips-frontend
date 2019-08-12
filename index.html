@@ -4,30 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Snips</title>
   </head>
   <body>
-    <header>
+    <header class="default-header">
       <nav>
         <!-- TODO: put in a logo -->
-        <a href="/">Home</a>
-        <a href="pages/about.html">About</a>
-        <a href="pages/snippets.html">Snippets</a>
-        <a href="pages/account.html">Account</a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/snippets.html">Snippets</a></li>
+          <li><a href="pages/account.html">Account</a></li>
+          <li><a href="#competitors">Competitors</a></li>
+        </ul>
       </nav>
-      <hr />
     </header>
     <main>
-      <section>
-        <img
-          src="images/splash.jpg"
-          alt="Snippet Splash"
-          style="max-width: 600px;"
-        />
+      <section id="hero">
         <h1>Snips</h1>
         <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magni
-          dolore?
+          The slickest, fastest way to save and share your code snippets. 🚀
         </h3>
       </section>
       <section>
@@ -53,10 +50,9 @@
           laudantium laboriosam. Voluptatem.
         </p>
       </section>
-      <section>
+      <section id="competitors">
         <iframe src="https://codepen.io"></iframe>
         <iframe src="https://wesbos.com"></iframe>
-        <iframe src="https://stackoverflow.com"></iframe>
       </section>
     </main>
     <footer>
