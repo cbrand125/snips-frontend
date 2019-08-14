@@ -4,6 +4,7 @@
 @import 'resets.css';
 @import 'header.css';
 @import 'hero.css';
+@import 'snippets.css';
 
 html {
   font-family: 'Montserrat', sans-serif;

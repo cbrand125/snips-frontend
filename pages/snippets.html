@@ -4,9 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script defer src="../index.js"></script>
     <title>Snippets</title>
   </head>
   <body>
-    Snippets
+    <header class="default-header">
+      <nav>
+        <!-- TODO: put in a logo -->
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/snippets.html">Snippets</a></li>
+          <li><a href="/pages/account.html">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="snippets">
+      <div class="snip">
+        <div class="text">
+          <h2>comment.js</h2>
+          <p>A single line comment</p>
+          <pre><code>// Javascript is fun</code></pre>
+        </div>
+      </div>
+
+      <div class="snip">
+        <div class="text">
+          <h2>comment2.js</h2>
+          <p>A multi-line comment</p>
+          <pre><code>/** Javascript is fun **/</code></pre>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
