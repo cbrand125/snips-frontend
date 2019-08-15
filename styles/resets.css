@@ -1,7 +1,9 @@
-ul {
-  padding: 0;
-}
-body {
+body,
+ul,
+h1,
+h2,
+p,
+pre {
   padding: 0;
   margin: 0;
 }
