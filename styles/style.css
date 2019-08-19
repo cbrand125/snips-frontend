@@ -13,6 +13,10 @@ html {
   color: black;
 }
 
+html h5 {
+  color: var(--snips-grey);
+}
+
 body {
   background-color: #ebebec;
 }
