@@ -2,26 +2,21 @@ header {
   border-bottom: 1px solid black;
   font-size: 1.5vw;
   text-align: right;
+  padding: 5px;
 }
 
-header nav ul li {
+nav li {
   display: inline-block;
   text-align: center;
 }
 
-header nav ul li a {
+nav a {
   text-decoration: none;
   color: black;
   padding: 1vw 2vw;
-  transition: box-shadow 0.4s;
-  border-radius: 0.5vw;
 }
-
-header nav ul li a:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
-}
-
-.default-header {
-  background-color: white;
+nav a:hover {
+  text-decoration: underline;
+  color: black;
+  padding: 1vw 2vw;
 }

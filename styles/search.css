@@ -32,11 +32,11 @@
     var(--snips-black) 50%
   );
   background-size: 200% 100%;
-  background-position: right bottom;
+  background-position: right top;
   color: var(--snips-white);
   transition: all 0.2s linear;
 }
 #search-bar button:hover {
-  background-position: left bottom;
+  background-position: left top;
   transition: all 0.2s linear;
 }
